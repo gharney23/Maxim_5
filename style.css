@@ -46,14 +46,12 @@ width: max-content;}
         transform: translate(0vh, 0vh);
     }
 }
-#blue {width: 200vh;}
-#red {width: 200vh;}
+#blue {width: 300vh;}
+#red {width: 300vh;}
 * {overflow-y: hidden;
     overflow-x: hidden;}
 
-#a {font-size: 16pt;
+a {font-size: 16pt;
         color: coral;
-        top:10vh;
-    display: flex;
-display: row;}
+        top:10vh;}
         
