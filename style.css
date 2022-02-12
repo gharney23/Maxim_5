@@ -26,7 +26,8 @@ width: max-content;}
     z-index: 1;
     align-items: center;
     justify-content: center;
-    transition: (50vh, 50vh);}
+    transition: (50vh, 50vh);
+color: white;}
 
 @keyframes scroll1 {
     0% {
@@ -54,4 +55,4 @@ width: max-content;}
 a {font-size: 16pt;
         color: coral;
         top:10vh;}
-        
+body {background-color: black;}
