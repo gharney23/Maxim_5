@@ -50,3 +50,8 @@ width: max-content;}
 #red {width: 200vh;}
 * {overflow-y: hidden;
     overflow-x: hidden;}
+
+a {font-size: 16pt;
+        color: coral;
+        top:0vh;}
+        
