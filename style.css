@@ -1,0 +1,52 @@
+#blood {display:flex;
+    color: rgb(151, 0, 0);
+    font-size: 60pt;
+    flex-direction: row;
+    overflow: hidden;
+    animation-name: scroll1;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    width: max-content;
+    }
+#water {display:flex;
+    font-size: 60pt;
+    color: aquamarine;
+    flex-direction: row;
+    overflow: hidden;
+    animation-name: scroll2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+animation-timing-function: linear;
+width: max-content;}
+#text {display:flex;
+    font-size: 30pt;
+    position: relative;
+    overflow: hidden; 
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    transition: (50vh, 50vh);}
+
+@keyframes scroll1 {
+    0% {
+        transform: translate(-300vh, 0vh);
+    }
+
+    100% {
+        transform: translate(0vh, 0vh);
+    }
+}
+@keyframes scroll2 {
+    0% {
+        transform: translate(-300vh, 0vh);
+    }
+
+    100% {
+        transform: translate(0vh, 0vh);
+    }
+}
+#blue {width: 200vh;}
+#red {width: 200vh;}
+* {overflow-y: hidden;
+    overflow-x: hidden;}
