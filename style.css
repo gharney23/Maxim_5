@@ -53,5 +53,6 @@ width: max-content;}
 
 a {font-size: 16pt;
         color: coral;
-        top:10vh;}
+        top:10vh;
+    position:absolute;}
         
