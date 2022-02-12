@@ -51,7 +51,9 @@ width: max-content;}
 * {overflow-y: hidden;
     overflow-x: hidden;}
 
-a {font-size: 16pt;
+#a {font-size: 16pt;
         color: coral;
-        top:10vh;}
+        top:10vh;
+    display: flex;
+display: row;}
         
